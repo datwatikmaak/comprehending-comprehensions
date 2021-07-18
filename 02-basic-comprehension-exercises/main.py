@@ -3,7 +3,7 @@ mylist = [10, 20, 30]
 list_string = list(map(str, mylist))
 # print(list_string)
 joined_string = "*".join(list_string)
-# print(joined_string)
+print(joined_string)
 
 
 # ask the user to enter multiple hex numbers (digits 0-9, and a-f), separated by whitespace, and sum those numbers
