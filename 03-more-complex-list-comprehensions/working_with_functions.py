@@ -7,3 +7,5 @@ words = input("Enter some words: ").split()
 
 reverse = [reverse_word(one_word)
            for one_word in words]
+
+print(reverse)
